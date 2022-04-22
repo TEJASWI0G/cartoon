@@ -1,0 +1,158 @@
+*{
+padding : 0;
+margin : 0;
+}
+.wrapper{
+background : url(galback.png) no-repeat;
+background-size : cover;
+height :100vh;
+}
+.navbar{
+height : 80px;
+width : 100%;
+background : rgba(0,100,150,0.4);
+}
+.logo{
+width : 100px;
+hight : auto;
+padding : 5px 100px;
+}
+.navbar ul{
+float : right;
+margin-right : 20 px;
+}
+.navbar ul li{
+list-style: none;
+margin : 0 8px;
+display: inline-block;
+line-height: 80px
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 6px 13px;
+transition: .5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background: hotpink;
+border-radius: 20px;
+
+}
+.wrapper .center{
+position: sticky;
+top:40%;
+left:25%;
+text-align : center;
+}
+.center h1{
+color: white;
+font-size: 50px;
+font-weight : bold;
+text align: center;
+margin-top:15px;
+
+}
+.center h2{
+color: #FFF56D;
+font-size: 40px;
+font-weight : bold;
+margin-top:15px;
+text align: center;
+}
+.center h3{
+color: #FF87CA;
+font-size: 35px;
+font-weight : bold;
+
+margin-top:15px;
+text align: center;
+}
+.center buttons{
+margin: 35px 280px;
+}
+.buttons button{
+height: 50px;
+width : 240px;
+font-size: 18px;
+font-weight : bold;
+color: #9C0F48;
+background: hotpink;
+border: 1px solid #cc0000;
+cursor : pointer;
+border-radius: 25px;
+}
+.buttons .btn{
+margin-left: 25px;
+}
+.buttons button:hover{
+background : #FFEDDB;
+transition : .5s;
+  transform: translateY(10px);
+}
+.open-button {
+padding: 16px 20px;
+bottom: 23px;
+right:28px;
+position: fixed;
+height: 50px;
+width : 240px;
+font-size: 18px;
+font-weight : bold;
+color: #9C0F48;
+background: hotpink;
+border: 1px solid #cc0000;
+cursor : pointer;
+border-radius: 25px;
+
+}
+
+
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 250px;
+  padding: 22px;
+  background-color: #F56D91;
+}
+
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 8px;
+  margin: 2px 0 20px 0;
+
+  
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #FFCCD2;
+}
+
+.form-container .btn {
+height: 60px;
+width: 100%;
+font-size: 18px;
+font-weight : bold;
+color: #9C0F48;
+background: #980F5A;
+border: 2px solid #E9D5DA;
+cursor : pointer;
+border-radius: 40%;
+color: white;
+
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+

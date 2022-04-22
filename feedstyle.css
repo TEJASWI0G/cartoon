@@ -1,0 +1,81 @@
+*{
+padding : 0;
+margin : 0;
+}
+.wrapper{
+background : url(gal.gif) no-repeat;
+background-size : cover;
+height :280vh;
+}
+.navbar{
+position: fixed;
+height : 80px;
+width : 100%;
+background : rgba(0,0,100,0.4);
+}
+.logo{
+width : 100px;
+hight : auto;
+padding : 5px 100px;
+}
+.feed{
+width : 350px;
+hight : auto;
+padding : 0px 220px;
+}
+.navbar ul{
+float : right;
+margin-right : 20 px;
+}
+.navbar ul li{
+list-style: none;
+margin : 0 8px;
+display: inline-block;
+line-height: 80px
+}
+.navbar ul li a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+padding: 6px 13px;
+transition: .5s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background: hotpink;
+border-radius: 20px;
+
+}
+.wrapper .center{
+text-align : center;
+font-size : 23px;
+color: #9C0F48;
+}
+.wrapper .cen{
+
+text-align : center;
+font-size : 23px;
+color: #1597BB;
+}
+.buttons button{
+height: 50px;
+width : 240px;
+font-size: 18px;
+font-weight : bold;
+color: #9C0F48;
+background: hotpink;
+border: 1px solid #cc0000;
+cursor : pointer;
+border-radius: 25px;
+}
+
+.buttons button:hover{
+background : #FFEDDB;
+transition : .5s;
+transform: translateY(10px);
+}
+.buttons button:active{
+background : #FFEDDB;
+transition : .5s;
+transform: translateY(10px);
+}

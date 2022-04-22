@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+My Website.!&#128512;
+</title>
+<script>
+function abc()
+{
+  
+   document.getElementById("reg").innerHTML = "You have Connected with us successfully ! Thank you for showing Interest..";
+   
+}
+function def()
+{
+  window.alert ("You have Registered Successfully!");
+   document.write("<h1 >Registration Successful..!</h1>");
+document.write("<hr>");
+    document.write("<h3>You have been registered Successfully.. Thank you..</h3>");
+   
+}
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+<link rel ="stylesheet" href ="style.css">
+<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP//ACr/AADN8AoA/4QAAAAz/wD3AP8A2f8AAA3/AAD/AP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzM0ISQzMzB3d0IVEkd3cHd0IVRRJHdwd0IVSEUSR3B0IVSEhFEkcEIVSEZIRRJAIVSJmZSEUSAVSJZmaUhFEFSElmZpZIRQSEZmZGZmSEBIRmZIRmZIQEhGaYSJZkhASIRIR0hEiEB0iIR3dIiEcHdER3d3REdwMzMzMzMzMzAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA" rel="icon" type="image/x-icon" />
+</head>
+<body>
+
+<div class = "wrapper">
+<nav class = "navbar">
+<img class ="logo" src ="logo.png" title = "my logo">
+<ul>
+<li><a class = "active" href = "project.html"  title = "Home">Home</a></li>
+<li><a href = "about.html"  title = "Content">Content</a></li>
+<li><a href = "https://www.linkedin.com/in/tejaswi-t-972509235/"  title = "My Linkedin">Contact</a></li>
+<li><a href = "https://github.com/TEJASWI0G" title = "My Github">Github</a></li>
+<li><a href = "feedback.html" title = "Your opinion">Feedback</a></li>
+</ul>
+</nav>
+
+<div class = "center">
+<h1><i>Welcome To The World Of Kids..!</i></h1>
+<h2> # Imagine beyond the World.!</h2>
+<div class  = "buttons">
+<button onclick="window.location.href='about.html';" title = "Explore More">Explore More..</button>
+<button class ="btn"  onclick = "abc()" title = "Get Connected">Get Connected..</button>
+<h3><b>Get Started with Explore More ... to see more..!!</b></h3>
+<p id="reg" style="position:static;color:#40DFEF;font-size:46px;">Kindly Connect, for more facts..!</p>
+</div>
+
+</div>
+</div>
+<div class  = "buttons">
+<button class="open-button" onclick="openForm()" title = "Register here">Register</button></div>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Register</h1>
+
+    <label for="email"><b>E-mail</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Create Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn" onclick="def()">Register</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Exit</button>
+  </form>
+</div>
+</body>
+</html>
