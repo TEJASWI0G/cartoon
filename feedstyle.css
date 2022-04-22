@@ -5,7 +5,7 @@ margin : 0;
 .wrapper{
 background : url(gal.gif) no-repeat;
 background-size : cover;
-height :280vh;
+height :300vh;
 }
 .navbar{
 position: fixed;
